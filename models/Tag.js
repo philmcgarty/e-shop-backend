@@ -3,10 +3,10 @@ const { Model, DataTypes } = require('sequelize');
 const sequelize = require('../config/connection.js');
 
 class Tag extends Model {}
-
+// tag model
 Tag.init(
   {
-    // define columns
+    // columns
     id: {
       type: DataTypes.INTEGER,
       allowNull: false,
